@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILL BASIC INFORMATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BASIC INFORMATION</h1>
+    <form action="POST"></form>
+    <div>
+        <label for ="username">ENTER USERNAME</label>
+        <input type="text" name="username" id="username" placeholder="enter name" autofocus >
+    </div>
+    <br>
+  <div>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">MALE</label>
+    
+        <input type="radio" name="gender" id="female" value ="female">
+        <label for="female">FEMALE</label>
+  </div>
+  <br>
+  <div>
+    <label for ="age">ENTER AGE</label>
+    <input type="text" name="username" id="age" placeholder="enter age" pattern="[0-9]
+    " required>
+</div>
+<br>
+ <label for="state">SELECT STATE</label>
+ <select name="state" id="state">
+    <option value = "delhi">DELHI</option>
+    <option value="outside delhi">OUTSIDE DELHI</option>
+    <option value="other country ">OTHER COUNTRY</option>
+</select>
+<br>
+<br>
+<label for="comment">Enter more information that you like to shared.. </label>
+<br>
+<textarea name="comment" id="comment" rows="4" cols="40" placeholder="enter here" ></textarea>
+<div>
+    <input type="checkbox" id="valid" name="valid" value="yes">
+    <label for="vaild">Above information provided by me is correct</label>
+</div>
+<div>
+    <input type ="checkbox" id="you responsible " name="you responsible" value="yes">
+    <label for ="you responsible">I am responsible for the information provided</label>
+</div>
+    <input type="submit" value="submit">
+    <script src="script.js"></script>
+</body>
+</html>

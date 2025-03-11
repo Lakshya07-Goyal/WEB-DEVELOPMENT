@@ -1,0 +1,22 @@
+body{
+    background-color: pink;
+    color: white ;}
+td{
+
+    border: 2px solid black;
+}
+span{
+   background-color : blue;
+}
+div{
+   background-color: green;
+}
+ .red{
+    background-color: red;
+ }
+ .bd-green{
+    color: yellow;
+ }
+ #p1{
+    background-color: green;
+ }
